@@ -55,5 +55,5 @@ Full-stack gym management platform with **user, trainer, and admin roles**. Mana
 
 ##admin Credentials for Text
 - email: ne@loy.com
--pass: 123456 (Skipped Password validation)
+- pass: 123456 (Skipped Password validation)
 
