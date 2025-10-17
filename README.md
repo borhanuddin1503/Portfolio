@@ -48,4 +48,13 @@ Full-stack gym management platform with **user, trainer, and admin roles**. Mana
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/borhanuddin1503/core-x-gym.git
+- git clone https://github.com/borhanuddin1503/Portfolio.git
+- cd core-x-gym
+- npm i
+- npm run dev
+
+
+##admin Credentials for Text
+- email: ne@loy.com
+-pass: 123456 (Skipped Password validation)
+
