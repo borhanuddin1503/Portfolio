@@ -40,4 +40,4 @@ git clone https://github.com/borhanuddin1503/Portfolio.git
 
 - Email: borhanuddin1503@gmail.com
 - Phone: +8801641670628
-- LinkedIn: linkedin.com/in/borhanuddin1503
+- LinkedIn: https://www.linkedin.com/in/borhan-uddin-8a4867349/
