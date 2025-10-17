@@ -47,7 +47,6 @@ Full-stack gym management platform with **user, trainer, and admin roles**. Mana
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
-```bash
 - git clone https://github.com/borhanuddin1503/Portfolio.git
 - cd core-x-gym
 - npm i
