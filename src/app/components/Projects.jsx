@@ -18,7 +18,7 @@ export default function Projects() {
             name: "CoreX Gym",
             image: "/images/coreX-gym.png",
             stack: ["React", "Tailwind CSS", "Firebase", "Express Js", "Mongo DB", "React Query"],
-            description: "A personal portfolio website showcasing my projects and skills.",
+           description: "CoreX Gym is a modern fitness platform with user, trainer, and admin roles, featuring secure authentication, payments, and responsive design for a seamless experience.",
             liveLink: "https://core-x-gym.netlify.app",
             github: "https://github.com/borhanuddin1503/core-x-gym",
             server_repo: 'https://github.com/borhanuddin1503/core-x-server',

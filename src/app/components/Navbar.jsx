@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between  items-center p-4">
         {/* Logo */}
         <div>
-          <img src="/images/logo.png" alt="Logo" className="h-10" />
+          <Link href={'/'}><img src="/images/logo.png" alt="Logo" className="h-10" /></Link>
         </div>
 
         {/* Desktop links */}

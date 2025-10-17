@@ -57,7 +57,9 @@ export default function Hero() {
                     <p className="text-lg md:text-xl text-gray-600 leading-6">
                         I craft elegant and responsive web applications using Next.js, React, and Tailwind CSS, turning ideas into seamless digital experiences.
                     </p>
+                    
 
+                    {/* resume button */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -66,7 +68,7 @@ export default function Hero() {
                     >
 
                         <a
-                            href="/resume.pdf"
+                            href="/Resume/borhan_resume.pdf"
                             download
                             className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 
                              text-white rounded-lg font-semibold shadow-lg hover:scale-105 hover:shadow-xl transition-transform duration-300 cursor-pointer"

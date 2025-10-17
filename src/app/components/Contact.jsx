@@ -1,9 +1,8 @@
 'use client'
 import React from 'react';
-import { Fraunces } from 'next/font/google';
 import { motion } from 'framer-motion';
 import { FiMail, FiPhone, FiMessageCircle } from 'react-icons/fi';
-import fraunces from './About'
+import {fraunces} from './About'
 
 export default function Contact() {
     return (
@@ -26,7 +25,7 @@ export default function Contact() {
                     >
                         <div className="flex flex-col items-center bg-white/50 backdrop-blur-md shadow-2xl rounded-xl p-6 hover:scale-105 transition-transform duration-300 h-full">
                             <FiMail size={36} className="text-purple-500 mb-4" />
-                            <h3 className={`text-xl font-bold ${fraunces.className} mb-2`}>Email</h3>
+                            <h3 className={`text-xl text-black font-bold ${fraunces.className} mb-2`}>Email</h3>
                             <p className="text-gray-700">borhanuddin1503@gmail.com</p>
                         </div>
                     </motion.div>
@@ -40,7 +39,7 @@ export default function Contact() {
                     >
                         <div className="flex flex-col items-center bg-white/50 backdrop-blur-md shadow-2xl rounded-xl p-6 hover:scale-105 transition-transform duration-300 h-full">
                             <FiPhone size={36} className="text-purple-500 mb-4" />
-                            <h3 className={`text-xl font-bold ${fraunces.className} mb-2`}>Phone</h3>
+                            <h3 className={`text-xl text-black font-bold ${fraunces.className} mb-2`}>Phone</h3>
                             <p className="text-gray-700">+880 1641670628</p>
                         </div>
                     </motion.div>
@@ -54,7 +53,7 @@ export default function Contact() {
                     >
                         <div className="flex flex-col items-center bg-white/50 backdrop-blur-md shadow-2xl rounded-xl p-6 hover:scale-105 transition-transform duration-300 h-full">
                             <FiMessageCircle size={36} className="text-purple-500 mb-4" />
-                            <h3 className={`text-xl font-bold ${fraunces.className} mb-2`}>WhatsApp</h3>
+                            <h3 className={`text-xl text-black font-bold ${fraunces.className} mb-2`}>WhatsApp</h3>
                             <p className="text-gray-700">+880 1641670628</p>
                         </div>
                     </motion.div>

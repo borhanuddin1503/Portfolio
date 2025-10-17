@@ -27,7 +27,7 @@ export default function AboutMe() {
           className="md:w-1/2 flex justify-center"
         >
           <Image
-            src="/images/borhan.png"
+            src="/images/Borhan-2.png"
             alt="Borhan Uddin"
             width={380}
             height={380}
