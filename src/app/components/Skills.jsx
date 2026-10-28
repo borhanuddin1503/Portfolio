@@ -2,34 +2,51 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import {
-  SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiTailwindcss,
-  SiNodedotjs, SiExpress, SiMongodb, SiGit, SiFigma,
-  SiAdobeillustrator, SiAdobephotoshop,
-} from 'react-icons/si'
-import { MdCode } from 'react-icons/md'
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiGit,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+  SiSocketdotio,
+} from 'react-icons/si';
+
+import { MdCode } from 'react-icons/md';
 import SkillsBar from './SkillsBar'
 import { poppins } from '../layout'
 
 const skills = {
-  Frontend: [
-    { name: 'HTML',        level: 90, icon: <SiHtml5        size={18} className="text-orange-500" /> },
-    { name: 'CSS',         level: 85, icon: <SiCss3         size={18} className="text-blue-400"   /> },
-    { name: 'JavaScript',  level: 85, icon: <SiJavascript   size={18} className="text-yellow-400" /> },
-    { name: 'React',       level: 80, icon: <SiReact        size={18} className="text-cyan-400"   /> },
-    { name: 'Next.js',     level: 75, icon: <SiNextdotjs    size={18} className="text-white"      /> },
-    { name: 'Tailwind CSS',level: 85, icon: <SiTailwindcss  size={18} className="text-teal-400"   /> },
-  ],
-  Backend: [
-    { name: 'Node.js',    level: 70, icon: <SiNodedotjs size={18} className="text-green-500" /> },
-    { name: 'Express.js', level: 65, icon: <SiExpress   size={18} className="text-white/60"  /> },
-    { name: 'MongoDB',    level: 60, icon: <SiMongodb   size={18} className="text-green-400" /> },
-  ],
-  Tools: [
-    { name: 'Git',               level: 85, icon: <SiGit              size={18} className="text-red-400"     /> },
-    { name: 'VS Code',           level: 90, icon: <MdCode             size={18} className="text-blue-400"    /> },
-    { name: 'Adobe Photoshop',   level: 70, icon: <SiAdobephotoshop   size={18} className="text-[#31A8FF]"   /> },
-    { name: 'Adobe Illustrator', level: 70, icon: <SiAdobeillustrator size={18} className="text-[#FF9A00]"   /> },
-  ],
+Frontend: [
+  { name: 'HTML',         level: 90, icon: <SiHtml5        size={18} className="text-orange-500" /> },
+  { name: 'CSS',          level: 85, icon: <SiCss3         size={18} className="text-blue-400" /> },
+  { name: 'JavaScript',   level: 85, icon: <SiJavascript   size={18} className="text-yellow-400" /> },
+  { name: 'TypeScript',   level: 70, icon: <SiTypescript   size={18} className="text-blue-500" /> },
+  { name: 'React',        level: 80, icon: <SiReact        size={18} className="text-cyan-400" /> },
+  { name: 'Next.js',      level: 75, icon: <SiNextdotjs    size={18} className="text-white" /> },
+  { name: 'Tailwind CSS', level: 85, icon: <SiTailwindcss  size={18} className="text-teal-400" /> },
+],
+
+Backend: [
+  { name: 'Node.js',    level: 70, icon: <SiNodedotjs size={18} className="text-green-500" /> },
+  { name: 'Express.js', level: 65, icon: <SiExpress   size={18} className="text-white/60" /> },
+  { name: 'MongoDB',    level: 60, icon: <SiMongodb   size={18} className="text-green-400" /> },
+  { name: 'Mongoose',  level: 60, icon: <SiMongodb   size={18} className="text-green-500" /> },
+  { name: 'Socket.IO', level: 70, icon: <SiSocketdotio size={18} className="text-white" /> },
+],
+
+Tools: [
+  { name: 'Git',               level: 85, icon: <SiGit              size={18} className="text-red-400" /> },
+  { name: 'VS Code',           level: 90, icon: <MdCode             size={18} className="text-blue-400" /> },
+  { name: 'Adobe Photoshop',   level: 70, icon: <SiAdobephotoshop   size={18} className="text-[#31A8FF]" /> },
+  { name: 'Adobe Illustrator', level: 70, icon: <SiAdobeillustrator size={18} className="text-[#FF9A00]" /> },
+],
 }
 
 export default function SkillsSection() {

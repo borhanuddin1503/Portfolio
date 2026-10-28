@@ -16,81 +16,94 @@ import {
 } from 'react-icons/fa'
 import { MdVerified } from 'react-icons/md'
 
-const projects = [
-  {
-    id: 'project-ichat',
-    name: 'I Chat - Real Time Messaging Platform',
-    image: '/images/i-chat-thumbnail.PNG',
-    stack: [
-      'Next.js',
-      'Node.js',
-      'Tailwind CSS',
-      'Next Auth',
-      'MongoDB',
-      'mongoose',
-      'Socket.IO',
-      'WebRTC',
-    ],
-    description:
-      'I Chat is a modern real-time messaging platform built with Next.js that supports instant messaging, audio/video calling, voice messaging, image sharing, active status tracking, and live typing indicators. The application delivers a smooth real-time communication experience using Socket.IO and WebRTC technologies.',
-    liveLink: 'https://i-chat-bice.vercel.app/',
-    github: 'https://github.com/borhanuddin1503/i-chat-client',
-    server_repo: 'https://github.com/borhanuddin1503/i-chat-server',
-    challenges:
-      'Implementing stable real-time communication with Socket.IO, managing WebRTC peer connections for audio/video calls, handling incoming call UI with ringtone functionality, synchronizing active status and typing indicators in real time, optimizing message updates without unnecessary re-renders, and maintaining secure authentication and socket connections.',
-    extra_info:
-      'The platform includes real-time active status, live typing indicators, image sharing, voice messaging, audio/video calling with incoming call interface, call ringtone system, message delivery updates, profile management, and responsive UI for both desktop and mobile users.',
-    future:
-      'Planned improvements include group chats, screen sharing during calls, message reactions, read receipts, push notifications, message search functionality, and end-to-end encrypted communication.',
-  },
-  {
-    id: 'project-roytech',
-    name: 'RoyTech E-Commerce',
-    image: '/images/roytech-ecommerce.png',
-    stack: [
-      'Next.js',
-      'Node.js',
-      'MongoDB',
-      'Socket.IO',
-      'SSLCommerz',
-      'Tailwind CSS',
-      'Next Auth',
-    ],
-    description:
-      'RoyTech is a full-featured e-commerce platform built with Next.js where frontend and backend are handled in the same project. It supports secure payments, real-time live chat, cart management, and a powerful admin dashboard.',
-    liveLink: 'https://roy-tech-e-commerce.vercel.app',
-    github: 'https://github.com/borhanuddin1503/RoyTech-Ecommerce-Website',
-    challenges:
-      'Implementing secure admin access on both client and API, integrating SSLCommerz payment gateway, managing real-time live chat with Socket.IO on a separate server, handling product CRUD with multiple images, and building a scalable admin dashboard.',
-    extra_info:
-      'Admin access is protected. Socket.IO server is hosted separately on Railway for real-time chat support.',
-    future:
-      'Planned improvements include advanced order analytics, role-based staff management, improved SEO with Next.js optimization, and AI-powered product recommendations.',
-  },
-  {
-    id: 'project3',
-    name: 'CoreX Gym',
-    image: '/images/coreX-gym.png',
-    stack: [
-      'React',
-      'Tailwind CSS',
-      'Firebase',
-      'Express Js',
-      'Mongo DB',
-      'React Query',
-    ],
-    description:
-      'CoreX Gym is a modern fitness platform with user, trainer, and admin roles, featuring secure authentication, payments, and responsive design for a seamless experience.',
-    liveLink: 'https://core-x-gym.netlify.app',
-    github: 'https://github.com/borhanuddin1503/core-x-gym',
-    server_repo: 'https://github.com/borhanuddin1503/core-x-server',
-    challenges:
-      'Admin Role, Trainer Role, User Role Implementation Admin Functionality, trainer functionality, payment system, review, Payment Stats for Admin, Theme toggle, profile Update',
-    extra_info: 'admin_email: ne@loy.com, password: 123456',
-    future:
-      'Enhancing scalability and integrating AI features to provide intelligent insights and improve user experience across the website.',
-  },
-]
+ const projects = [
+        {
+            id: 'project-medix-pro',
+            name: 'Medix Pro - Hospital Management System',
+            image: '/images/medix-pro-thumbnail.JPG',
+
+            stack: [
+                'Next.js',
+                'TypeScript',
+                'Tailwind CSS',
+                'Node.js',
+                'Express.js',
+                'MongoDB',
+                'Mongoose',
+                'TanStack Query',
+                'JWT Authentication',
+                'Nodemailer',
+                'Recharts',
+            ],
+
+            description:
+                'Medix Pro is a full-stack hospital management system designed to streamline hospital operations, including appointment management, doctor and patient management, laboratory services, payments, and reporting. It features role-based access control for administrators, doctors, receptionists, and laboratory technologists.',
+
+            liveLink: 'https://medix-pro-ashen.vercel.app/',
+            github: 'https://github.com/borhanuddin1503/medix-pro',
+            server_repo: 'https://github.com/borhanuddin1503/medix-pro-server',
+
+            challenges:
+                'Implementing custom JWT-based authentication with access and refresh tokens, managing secure HTTP-only authentication cookies, building email verification and forgot-password functionality, enforcing role-based authorization, coordinating appointment and payment workflows, and managing authenticated API requests and server-side data fetching in Next.js.',
+
+            extra_info:
+                'The platform features manually implemented JWT authentication with access and refresh tokens, email verification through OTP, forgot-password and password-reset functionality, secure cookie-based session management, and role-based access control. It also includes appointment management, doctor and user management, department management, laboratory services, payment tracking, and report generation. TanStack Query supports client-side data fetching and cache management, while Recharts provides data visualization for administrative reports.',
+
+            future:
+                'Planned improvements include real-time notifications, advanced analytics, prescription management, medical history tracking, inventory management, and enhanced reporting capabilities.',
+        }
+        ,
+        {
+            id: 'project-ichat',
+            name: 'I Chat - Real Time Messaging Platform',
+            image: '/images/i-chat-thumbnail.PNG',
+            stack: [
+                'Next.js',
+                'Node.js',
+                'Tailwind CSS',
+                'Next Auth',
+                'MongoDB',
+                'mongoose',
+                'Socket.IO',
+                'WebRTC',
+            ],
+            description:
+                'I Chat is a modern real-time messaging platform built with Next.js that supports instant messaging, audio/video calling, voice messaging, image sharing, active status tracking, and live typing indicators.',
+            liveLink: 'https://i-chat-bice.vercel.app/',
+            github: 'https://github.com/borhanuddin1503/i-chat-client',
+            server_repo: 'https://github.com/borhanuddin1503/i-chat-server',
+            challenges:
+                'Implementing stable real-time communication with Socket.IO, managing WebRTC peer connections for audio/video calls, handling incoming call UI with ringtone functionality, synchronizing active status and typing indicators in real time, optimizing message updates without unnecessary re-renders, and maintaining secure authentication and socket connections.',
+            extra_info:
+                'The platform includes real-time active status, live typing indicators, image sharing, voice messaging, audio/video calling with incoming call interface, call ringtone system, message delivery updates, profile management, and responsive UI for both desktop and mobile users.',
+            future:
+                'Planned improvements include group chats, screen sharing during calls, message reactions, read receipts, push notifications, message search functionality, and end-to-end encrypted communication.',
+        },
+        {
+            id: 'project-roytech',
+            name: 'RoyTech E-Commerce',
+            image: '/images/roytech-ecommerce.png',
+            stack: [
+                'Next.js',
+                'Node.js',
+                'MongoDB',
+                'Socket.IO',
+                'SSLCommerz',
+                'Tailwind CSS',
+                'Next Auth',
+            ],
+            description:
+                'RoyTech is a full-featured e-commerce platform built with Next.js where frontend and backend are handled in the same project. It supports secure payments, real-time live chat, cart management, and a powerful admin dashboard.',
+            liveLink: 'https://roy-tech-e-commerce.vercel.app',
+            github: 'https://github.com/borhanuddin1503/RoyTech-Ecommerce-Website',
+            challenges:
+                'Implementing secure admin access on both client and API, integrating SSLCommerz payment gateway, managing real-time live chat with Socket.IO on a separate server, handling product CRUD with multiple images, and building a scalable admin dashboard.',
+            extra_info:
+                'Admin access is protected. Socket.IO server is hosted separately on Railway for real-time chat support.',
+            future:
+                'Planned improvements include advanced order analytics, role-based staff management, improved SEO with Next.js optimization, and AI-powered product recommendations.',
+        },
+    ]
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },

@@ -255,7 +255,7 @@ export default function AboutMe() {
               viewport={{ once: true }}
               className="mt-2 flex flex-wrap gap-2"
             >
-              {['Next.js', 'React', 'javascript', 'Tailwind CSS', 'Socket Io', 'Express js', 'MongoDB', 'Mongoose', 'Webrtc', 'html', 'css'].map(
+              {['Next.js', 'React', 'javascript', 'TypeScript',  'Tailwind CSS', 'Socket Io', 'Express js', 'MongoDB', 'Mongoose', 'Webrtc', 'html', 'css'].map(
                 (skill, i) => (
                   <motion.span
                     key={skill}
